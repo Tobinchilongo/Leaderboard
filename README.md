@@ -30,7 +30,7 @@ run `npm install` to install dependencies
 
 👤 **Tobin Chilongo Jr**
 
-- GitHub: [@nTobinchilongo](https://github.com/Tobinchilongo)
+- GitHub: [@Tobinchilongo](https://github.com/Tobinchilongo)
 - Twitter: [@Tobin_Official](https://twitter.com/Tobin_Official)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/tobin-chilongo-a6736415a/)
 
