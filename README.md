@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Wepback-linters-boilerplate
+# LEADERBOARD
 
 A starter boilerplate for projects in webpack and linters configs
 
@@ -17,10 +17,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-clone repo: `git clone https://github.com/netman5/webpack-linters-boilerplates.git`
+clone repo: `git clone https://github.com/Tobinchilongo/Leaderboard.git`
 
 then
-`cd webpack-linters-boilerplates`
+`cd Leaderboard`
 
 ### Install
 
@@ -28,11 +28,11 @@ run `npm install` to install dependencies
 
 ## Authors
 
-👤 **Ola Ishola**
+👤 **Tobin Chilongo Jr**
 
-- GitHub: [@netman5](https://github.com/netman5)
-- Twitter: [@Orlaish](https://twitter.com/Orlaish)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ola-ishola/)
+- GitHub: [@nTobinchilongo](https://github.com/Tobinchilongo)
+- Twitter: [@Tobin_Official](https://twitter.com/Tobin_Official)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tobin-chilongo-a6736415a/)
 
 ## 🤝 Contributing
 
