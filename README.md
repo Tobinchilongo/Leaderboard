@@ -20,11 +20,11 @@ To get a local copy up and running follow these simple example steps.
 clone repo: `git clone https://github.com/Tobinchilongo/Leaderboard.git`
 
 then
-`cd Leaderboard`
-
-### Install
-
-run `npm install` to install dependencies
+```
+  cd leaderboard
+  npm install
+  npm start
+```
 
 ## Authors
 
