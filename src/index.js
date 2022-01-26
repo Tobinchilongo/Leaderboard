@@ -5,7 +5,6 @@ const score = document.getElementById('user-score');
 const box = document.getElementById('scores');
 const form = document.getElementById('form');
 const refresh = document.getElementById('refresh-btn');
-// document.body.appendChild(component());
 const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/IlpefkswvxlUmvlqvnsw/scores/';
 
 const postData = () => {
