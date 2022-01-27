@@ -7,11 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch",
     "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist",
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/netman5/webpack-boilerplate.git"
+    "url": "git+https://github.com/Tobinchilongo/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
@@ -38,6 +39,7 @@
     "webpack-dev-server": "^4.7.2"
   },
   "dependencies": {
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21"
   }
 }
