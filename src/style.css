@@ -1,3 +1,135 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 body {
-  background-color: bisque;
+  background-image: url(./images/leaderboard.jpg);
+  color: aliceblue;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: auto;
+  gap: 33px;
+}
+
+.recent-scores {
+  margin-right: 100px;
+}
+
+.refresh-scores {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.refresh-scores h2 {
+  margin: 0 50px 0 0;
+}
+
+#scores {
+  margin-top: 25px;
+  border: 1px solid aliceblue;
+  border-radius: 5px;
+  list-style: none;
+  padding: 15px;
+  display: block;
+  overflow-y: auto;
+  max-height: 380px;
+}
+
+#scores li {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-left: 20px;
+  background-color: navy;
+}
+
+#scores li:nth-child(2n) {
+  background-color: #0e0d0f;
+}
+
+div {
+  display: block;
+}
+
+#scores > div {
+  margin: 10px;
+}
+
+#scores div:nth-of-type(2n) {
+  background-color: #393939;
+}
+
+.input-scores {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-scores input {
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.input-scores input:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+.input-scores input[type="submit"] {
+  margin-top: 20px;
+  width: 35%;
+  align-self: flex-end;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #fff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(141, 133, 133, 0.959);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #0e0d0f;
+}
+
+.submit {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #fff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(92, 5, 114, 0.226);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.submit:hover {
+  color: #fff;
+  background-color: #0e0d0f;
 }
