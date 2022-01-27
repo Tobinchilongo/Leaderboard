@@ -6,7 +6,7 @@ In this activity I am setting up a JavaScript project for the Leaderboard list a
 
 ## Live Demo
 
-![](https://tobinchilongo.github.io/Leaderboard)
+![Live link Demo](https://tobinchilongo.github.io/Leaderboard/)
 
 ## SCREENSHOT
 
