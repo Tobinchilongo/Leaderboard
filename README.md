@@ -4,6 +4,10 @@
 
 A starter boilerplate for projects in webpack and linters configs
 
+## SCREENSHOT
+
+![screenshot](./images/Screenshot.png)
+
 ## Built With
 
 - HTML
