@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leaderboard</title>
+<script defer src="main.bundle.js"></script></head>
+
+<body>
+  <h1>Leaderboard</h1>
+  <div class="container">
+    <article>
+      <div class="refresh-scores">
+        <h2>Recent scores</h2>
+        <button type="button" id="refresh-btn">Refresh</button>
+      </div>
+      <div>
+        <div id="scores"></div>
+      </div>
+    </article>
+    <article class="add-score">
+      <h2>Add your score</h2>
+      <div class="input-scores">
+        <input id="username" placeholder="Your name" required />
+        <input id="user-score" placeholder="Your score" required />
+        <input class="submit" id="submit" type="submit" value="Submit" />
+      </div>
+    </article>
+  </div>
+  <footer>
+    <div>
+      <p>Copyright Tobin Chilongo Jr</p>
+    </div>
+  </footer>
+</body>
+
+</html>
