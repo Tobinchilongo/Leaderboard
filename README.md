@@ -4,6 +4,10 @@
 
 In this activity I am setting up a JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules. I will develop a first working version of the app following a wireframe, but without styling - just focus on functionality. In following activities, I will consume the Leaderboard API using JavaScript async and await and add some styling.
 
+## SCREENSHOT
+
+![screenshot](./images/Screenshot.png)
+
 ## Built With
 
 - HTML
@@ -20,11 +24,11 @@ To get a local copy up and running follow these simple example steps.
 clone repo: `git clone https://github.com/Tobinchilongo/Leaderboard.git`
 
 then
-`cd Leaderboard`
-
-### Install
-
-run `npm install` to install dependencies
+```
+  cd leaderboard
+  npm install
+  npm start
+```
 
 ## Authors
 
